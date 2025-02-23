@@ -1,5 +1,6 @@
 body{
     scroll-behavior: smooth;
+    /* background: linear-gradient(45deg, #2b000f, transparent); */
 }
 
 /* Scrollbar Styling */
@@ -52,4 +53,38 @@ body{
 #topBtn i{
     font-size: 30px;
     color:#f49957;
+}
+.z-level-high{
+    z-index: 999;
+}
+.ai-template-card-1{
+    border: 1px solid rgba(72, 69, 78, .5);
+    background-color: rgba(16, 20, 21, .5);
+    border-radius: 10px;
+}
+.contact-us-wrapper .form-group label{
+    color: #ececec80;
+    margin-bottom: 5px;
+}
+.contact-us-wrapper .form-group .form-control {
+    border: 1px solid rgba(72, 69, 78, .5);
+    padding: 10px 15px;
+}
+.custom-button{
+    border: 1px solid #4f4f4f94;
+    padding: 10px 15px;
+    background: none;
+    color: #dbdbdb80;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.visiting-wrapper i{
+    color: #c3c6c6;
+}
+.visiting-wrapper span{
+    color: #c3c6c6;
+    margin-right: 10px;
+}
+.visiting-wrapper iframe{
+    border-radius: 10px;
 }

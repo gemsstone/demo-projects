@@ -38850,7 +38850,7 @@ html.lenis {
 }
 
 .header {
-    z-index: 999;
+    z-index: 99999;
     transition: all .3s ease
 }
 
