@@ -1,6 +1,6 @@
 body{
     scroll-behavior: smooth;
-    background: linear-gradient(45deg, #2b000f, transparent);
+    /* background: linear-gradient(45deg, #2b000f, transparent); */
 }
 
 /* Scrollbar Styling */
