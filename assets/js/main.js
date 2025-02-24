@@ -46,25 +46,25 @@ s.src = url;
 var options = {
     "enabled": true,
     "chatButtonSetting": {
-        "backgroundColor": "#3cb4a0",
+        "backgroundColor": "#170c3d",
         "ctaText": "",
         "borderRadius": "25",
-        "marginLeft": "15",
-        "marginBottom": "30",
-        "marginRight": "50",
+        "marginLeft": "20",
+        "marginBottom": "20",
+        "marginRight": "0",
         "position": "left"
     },
     "brandSetting": {
         "brandName": "Finoscale",
-        "brandSubTitle": "",
-        "brandImg": "",
+        "brandSubTitle": "ransforming financial decision-making",
+        "brandImg": "assets/images/logo-icons/favicons.png",
         "welcomeText": "Hi there!\nHow can I help you?",
         "messageText": "Hello, I have a question about Finoscale Solutions?",
-        "backgroundColor": "#369b8d",
+        "backgroundColor": "#170c3d",
         "ctaText": "Start Chat",
         "borderRadius": "25",
         "autoShow": false,
-        "phoneNumber": "911234567890"
+        "phoneNumber": "918147659205"
     }
 };
 s.onload = function () {
@@ -72,8 +72,3 @@ s.onload = function () {
 };
 var x = document.getElementsByTagName('script')[0];
 x.parentNode.insertBefore(s, x);
-
-
-// Chatbot
-
-(function (w, d) { w.CollectId = "63d75a469eed8935fca54388"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async = true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);
