@@ -36,3 +36,44 @@ window.onscroll = function() {
 function scrollToTop() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
+
+// Whatsapp
+var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?65970';
+var s = document.createElement('script');
+s.type = 'text/javascript';
+s.async = true;
+s.src = url;
+var options = {
+    "enabled": true,
+    "chatButtonSetting": {
+        "backgroundColor": "#3cb4a0",
+        "ctaText": "",
+        "borderRadius": "25",
+        "marginLeft": "15",
+        "marginBottom": "30",
+        "marginRight": "50",
+        "position": "left"
+    },
+    "brandSetting": {
+        "brandName": "Finoscale",
+        "brandSubTitle": "",
+        "brandImg": "",
+        "welcomeText": "Hi there!\nHow can I help you?",
+        "messageText": "Hello, I have a question about Finoscale Solutions?",
+        "backgroundColor": "#369b8d",
+        "ctaText": "Start Chat",
+        "borderRadius": "25",
+        "autoShow": false,
+        "phoneNumber": "911234567890"
+    }
+};
+s.onload = function () {
+    CreateWhatsappChatWidget(options);
+};
+var x = document.getElementsByTagName('script')[0];
+x.parentNode.insertBefore(s, x);
+
+
+// Chatbot
+
+(function (w, d) { w.CollectId = "63d75a469eed8935fca54388"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async = true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);
