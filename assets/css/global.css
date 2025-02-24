@@ -88,3 +88,6 @@ body{
 .visiting-wrapper iframe{
     border-radius: 10px;
 }
+.zsiq-float {
+    bottom: 20px!important;
+}
